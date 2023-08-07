@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto',sans-serif;
+}
+h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    
+}
+
+.star {
+    color: red;
+    margin-right: 4px;
+  }
+
+.email-pass {
+  font-weight: 500;
+  color: black; 
+}
+.sub-head{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.ant-input{
+    padding: 7px;
+}
+.signin
+{
+  position: absolute;
+  background: #222;  
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  width: -webkit-fill-available;
+  margin: 20px;
+  margin-left: 10px;
+}
+
+
+.inputBox
+{ 
+  position: relative;
+  width: 100%;
+  
+}
+
+
+
+
+
+.links 
+{
+  margin-top: -2px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.links a 
+{
+    color: #5138EE;
+  text-decoration: none;
+  font-weight: 400;
+}
+.links a:nth-child(2)
+{
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+.submit{
+  height: 50px;
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #5138EE;
+  border-radius: 10px;
+  padding: 7px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  color: whitesmoke;
+}
+
+.submit:hover{
+    background-color: black;
+}
+.ant-btn>span{
+    color: whitesmoke;
+}
+
+.logo{
+    width: 100px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
+.appointment-status{ 
+    padding: 30px;
+    width: 100%;    
+   
+  }
+.appointment-status h1{
+    color: black;
+    letter-spacing: 0.04em;
+    margin-bottom: 0px !important;
+  }
+
+  .appointment-status h4{
+    color: rgb(46, 49, 46);
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    padding-bottom:13px ;
+  } 
+
+  .res{
+    color: #5138EE;
+    font-weight: 400;
+  }
+ .appointment-table{
+  
+    padding: 20px;
+    width: 100%; 
+ }
+
+ .appointment-table h1{
+  color: black;
+  font-weight: 500;
+  margin-bottom: 20px;
+ }
+
+ .ant-table
+  .ant-table-container
+  .ant-table-content
+  table
+  thead.ant-table-thead
+  .ant-table-cell{
+  background-color: #323232 !important;
+  color: white;
+}
+.ant-table-tbody{
+  background-color: white;
+  color: black;
+
+}
+
+.ant-table-tbody>tr.ant-table-row:hover>td, .ant-table-tbody>tr>td.ant-table-cell-row-hover {
+   background: rgb(194, 194, 194); 
+}
+.ant-table-tbody>tr>td{
+  border-bottom: 1px solid black;
+}
+
+.buttonapp{
+  background-color: #5138EE;
+}
+
+.revenue-main{
+  padding: 30px;
+  width: 100%;
+
+}
+.revenue-main h1{
+  color: black;
+  letter-spacing: 0.04em;
+  padding-bottom: 10px;
+}
+
+.month{
+  font-size: 20px;
+  font-weight: 400;
+  color: #5138EE;
+}
+.year{
+  font-size: 30px;
+  margin-top: -5px;
+  color:black;
+  font-weight: 500;
+  
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MuiDataGrid-sortIcon{
+  color: white;
+}
+
+.MuiSvgIcon-root{
+  color: white;
+}
+
+.MuiSvgIcon-root .MuiSvgIcon-fontSizeSmall .MuiDataGrid-sortIcon .css-ptiqhd-MuiSvgIcon-root{
+  color: white;
+}
+
+
+.css-5wly58-MuiDataGrid-root .MuiDataGrid-columnHeader .MuiDataGrid-sortIcon {
+   opacity: 1.0 !important;
+   visibility: visible; 
+  color: white;
+  margin-left: 10px;
+}
+
+.MuiDataGrid-columnHeader.MuiDataGrid-columnHeaderSorted {
+  justify-content: center;
+}
+
+.ant-modal-footer button{
+  background-color: #5138EE;
+}

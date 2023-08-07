@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
+.appointment-status{ 
+    padding: 10px; 
+    width: 100%;    
+   
+  }
+.appointment-status h1{
+    color: black;
+    letter-spacing: 0.04em;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+  }
+
+
+
+  .appointment-status h4{
+    color: rgb(46, 49, 46);
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    padding-bottom:13px ;
+  }
+
+  .res{
+    color: #5138EE;
+    font-weight: 400;
+  }
+
+  .text-holder{
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .text-input{
+    position: relative;
+    padding: 10px 13px 15px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 20px;
+    
+  }
+
+  .ant-picker{
+    width: 100%;
+  }
+  .ant-picker-suffix{
+    color:black;
+  }
+  .ant-picker-hover{
+    color: black;
+  }
+  .ant-picker-focused { 
+    outline: 0;
+    border: 2px solid black;
+}
+
+.ant-picker-input input{
+  border: none !important;
+}
+.ant-picker{
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
