@@ -3,10 +3,10 @@ const app = express();
 require("dotenv").config();
 const dbConfig = require("./config/dbConfig");
 app.use(express.json());
-const userRoute = require("../routes/userRoute");
-const doctorRoute = require("../routes/doctorsRoute");
+const userRoute = require("./routes/userRoute");
+const doctorRoute = require("./routes/doctorsRoute");
 const path = require("path");
-const Appointment = require("../models/appointmentModel");
+const Appointment = require("./models/appointmentModel");
 
 
 app.use("/api/user", userRoute);
