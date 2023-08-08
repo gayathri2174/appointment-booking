@@ -29,7 +29,7 @@ function Trainer({ trainer }) {
     }
   }
   const checkvalue=()=>{
-    if(status.sum!=undefined){
+    if(status.sum!==undefined){
       setavailable(true);
     }
   }
