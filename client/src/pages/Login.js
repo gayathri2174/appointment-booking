@@ -48,8 +48,6 @@ function Login() {
             <Input placeholder="Enter Password" type="password" />
           </Form.Item>
           
-          <div class="links"> <a href="#">Forgot Password</a> <a onClick={() => navigate(`/register`)}>Signup</a> 
-          </div>
           <Button className="submit" htmlType="submit">
             LOGIN
           </Button>
