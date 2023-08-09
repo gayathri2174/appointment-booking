@@ -11,6 +11,7 @@ const Appointment = require("./models/appointmentModel");
 
 app.use("/api/user", userRoute);
 app.use("/api/doctor", doctorRoute);
+app.use(express.static('build'))
 
 /*if (process.env.NODE_ENV === "production") {
   app.use("/", express.static("client/build"));
